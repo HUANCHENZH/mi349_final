@@ -1,0 +1,118 @@
+html {
+    background: rgb(252, 252, 252);
+}
+
+
+header {
+    background-color:whitesmoke;
+    color: rgb(44, 43, 43);
+}
+
+
+#menubar {
+    overflow: hidden;
+}
+
+#menubar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 7px;
+    font-size: 3ex;
+}
+
+  
+
+body {
+   
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    border-bottom: 10px solid #242424;
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    display: flex;
+  }
+.box1 {
+    background-color: whitesmoke;
+}
+.box2 {
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 30px;
+}
+
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+
+
+#sub {
+    border-top: 5px solid black;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+
+.card {
+    background-color: white;
+    border-radius: 35px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow:rgb(53, 51, 52) 3px 3px 3px;
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.card .avatar {
+    box-shadow: rgb(36, 35, 35) 3px 3px 3px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px ;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.contacts img {
+    width: 100%;
+}
